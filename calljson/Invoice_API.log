@@ -1,0 +1,457 @@
+2023-04-19 21:52:45,329 | C:\Users\zuhrah.sirguroh\Downloads\calljson (1)\calljson\callapp\views.py changed, reloading.
+2023-04-19 22:25:22,495 | C:\Users\zuhrah.sirguroh\Downloads\calljson (1)\calljson\callapp\views.py changed, reloading.
+2023-04-19 23:14:18,617 | C:\Users\zuhrah.sirguroh\Downloads\calljson (1)\calljson\callapp\views.py changed, reloading.
+2023-04-20 07:52:03,746 | C:\Users\zuhrah.sirguroh\Downloads\calljson (1)\calljson\callapp\views.py changed, reloading.
+2023-04-20 08:30:37,336 | C:\Users\zuhrah.sirguroh\Downloads\calljson (1)\calljson\callapp\views.py changed, reloading.
+2023-04-20 08:32:00,745 | acepp222333-abf5-11ec-94a2-0a58c0a808f6 |Status of Invoice : Request recieved
+2023-04-20 08:32:01,145 | Internal Server Error: /api/calljson/
+Traceback (most recent call last):
+  File "D:\scb_bazaar\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\scb_bazaar\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\scb_bazaar\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\scb_bazaar\lib\site-packages\django\views\generic\base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\scb_bazaar\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\scb_bazaar\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\scb_bazaar\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\scb_bazaar\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\scb_bazaar\lib\site-packages\rest_framework\decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "C:\Users\zuhrah.sirguroh\Downloads\calljson (1)\calljson\callapp\views.py", line 158, in call_json
+    txt_ack=Text_extract_flow(url=config['Invoice_DATA']['Textextract_url'],data_input=txt_input,call_data="")
+  File "C:\Users\zuhrah.sirguroh\Downloads\calljson (1)\calljson\callapp\views.py", line 55, in Text_extract_flow
+    text_extract_response_value=requests.post(str(url))
+  File "D:\scb_bazaar\lib\site-packages\requests\api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+  File "D:\scb_bazaar\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\scb_bazaar\lib\site-packages\requests\sessions.py", line 573, in request
+    prep = self.prepare_request(req)
+  File "D:\scb_bazaar\lib\site-packages\requests\sessions.py", line 484, in prepare_request
+    p.prepare(
+  File "D:\scb_bazaar\lib\site-packages\requests\models.py", line 368, in prepare
+    self.prepare_url(url, params)
+  File "D:\scb_bazaar\lib\site-packages\requests\models.py", line 439, in prepare_url
+    raise MissingSchema(
+requests.exceptions.MissingSchema: Invalid URL 'Mike Flangnan': No scheme supplied. Perhaps you meant http://Mike Flangnan?
+2023-04-20 08:34:19,026 | C:\Users\zuhrah.sirguroh\Downloads\calljson (1)\calljson\callapp\views.py changed, reloading.
+2023-04-20 08:34:22,515 | acepp222333-abf5-11ec-94a2-0a58c0a808f6 |Status of Invoice : Request recieved
+2023-04-20 08:34:22,587 | Internal Server Error: /api/calljson/
+Traceback (most recent call last):
+  File "D:\scb_bazaar\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\scb_bazaar\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\scb_bazaar\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\scb_bazaar\lib\site-packages\django\views\generic\base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\scb_bazaar\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\scb_bazaar\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\scb_bazaar\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\scb_bazaar\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\scb_bazaar\lib\site-packages\rest_framework\decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "C:\Users\zuhrah.sirguroh\Downloads\calljson (1)\calljson\callapp\views.py", line 158, in call_json
+    txt_ack=Text_extract_flow(url=config['Invoice_DATA']['Textextract_url'],data_input=txt_input,call_data="")
+  File "C:\Users\zuhrah.sirguroh\Downloads\calljson (1)\calljson\callapp\views.py", line 55, in Text_extract_flow
+    text_extract_response_value=requests.post(str(url))
+  File "D:\scb_bazaar\lib\site-packages\requests\api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+  File "D:\scb_bazaar\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\scb_bazaar\lib\site-packages\requests\sessions.py", line 573, in request
+    prep = self.prepare_request(req)
+  File "D:\scb_bazaar\lib\site-packages\requests\sessions.py", line 484, in prepare_request
+    p.prepare(
+  File "D:\scb_bazaar\lib\site-packages\requests\models.py", line 368, in prepare
+    self.prepare_url(url, params)
+  File "D:\scb_bazaar\lib\site-packages\requests\models.py", line 439, in prepare_url
+    raise MissingSchema(
+requests.exceptions.MissingSchema: Invalid URL 'Mike Flangnan': No scheme supplied. Perhaps you meant http://Mike Flangnan?
+2023-04-20 08:35:49,091 | C:\Users\zuhrah.sirguroh\Downloads\calljson (1)\calljson\callapp\views.py changed, reloading.
+2023-04-20 08:35:53,857 | C:\Users\zuhrah.sirguroh\Downloads\calljson (1)\calljson\callapp\views.py changed, reloading.
+2023-04-20 08:35:58,830 | acepp222333-abf5-11ec-94a2-0a58c0a808f6 |Status of Invoice : Request recieved
+2023-04-20 08:35:58,845 | Starting new HTTP connection (1): 127.0.0.1:5000
+2023-04-20 08:36:01,043 | Internal Server Error: /api/calljson/
+Traceback (most recent call last):
+  File "D:\scb_bazaar\lib\site-packages\urllib3\connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+  File "D:\scb_bazaar\lib\site-packages\urllib3\util\connection.py", line 95, in create_connection
+    raise err
+  File "D:\scb_bazaar\lib\site-packages\urllib3\util\connection.py", line 85, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] No connection could be made because the target machine actively refused it
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\scb_bazaar\lib\site-packages\urllib3\connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "D:\scb_bazaar\lib\site-packages\urllib3\connectionpool.py", line 398, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "D:\scb_bazaar\lib\site-packages\urllib3\connection.py", line 239, in request
+    super(HTTPConnection, self).request(method, url, body=body, headers=headers)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\lib\http\client.py", line 1283, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\lib\http\client.py", line 1329, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\lib\http\client.py", line 1278, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\lib\http\client.py", line 1038, in _send_output
+    self.send(msg)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\lib\http\client.py", line 976, in send
+    self.connect()
+  File "D:\scb_bazaar\lib\site-packages\urllib3\connection.py", line 205, in connect
+    conn = self._new_conn()
+  File "D:\scb_bazaar\lib\site-packages\urllib3\connection.py", line 186, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x000002AC406D9C90>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\scb_bazaar\lib\site-packages\requests\adapters.py", line 489, in send
+    resp = conn.urlopen(
+  File "D:\scb_bazaar\lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    retries = retries.increment(
+  File "D:\scb_bazaar\lib\site-packages\urllib3\util\retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=5000): Max retries exceeded with url: /textxtract (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002AC406D9C90>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\scb_bazaar\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\scb_bazaar\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\scb_bazaar\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\scb_bazaar\lib\site-packages\django\views\generic\base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\scb_bazaar\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\scb_bazaar\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\scb_bazaar\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\scb_bazaar\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\scb_bazaar\lib\site-packages\rest_framework\decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "C:\Users\zuhrah.sirguroh\Downloads\calljson (1)\calljson\callapp\views.py", line 158, in call_json
+    txt_ack=Text_extract_flow(url=config['Invoice_DATA']['Textextract_url'],data_input=txt_input,call_data="")
+  File "C:\Users\zuhrah.sirguroh\Downloads\calljson (1)\calljson\callapp\views.py", line 55, in Text_extract_flow
+    text_extract_response_value=requests.post(str(url))
+  File "D:\scb_bazaar\lib\site-packages\requests\api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+  File "D:\scb_bazaar\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\scb_bazaar\lib\site-packages\requests\sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\scb_bazaar\lib\site-packages\requests\sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "D:\scb_bazaar\lib\site-packages\requests\adapters.py", line 565, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='127.0.0.1', port=5000): Max retries exceeded with url: /textxtract (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002AC406D9C90>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2023-04-20 08:38:00,005 | C:\Users\zuhrah.sirguroh\Downloads\calljson (1)\calljson\callapp\views.py changed, reloading.
+2023-04-20 08:38:14,346 | acepp222333-abf5-11ec-94a2-0a58c0a808f6 |Status of Invoice : Request recieved
+2023-04-20 08:38:14,352 | 970110ee-df28-11ed-bf16-6c9466b6473d |Status of Textxtract : ACK recieved
+2023-04-20 08:38:26,369 | Starting new HTTP connection (1): 127.0.0.1:8000
+2023-04-20 08:38:26,401 | Not Found: /textxtract
+2023-04-20 08:38:26,403 | http://127.0.0.1:8000 "GET /textxtract HTTP/1.1" 404 2653
+2023-04-20 08:38:26,479 | Internal Server Error: /api/calljson/
+Traceback (most recent call last):
+  File "D:\scb_bazaar\lib\site-packages\requests\models.py", line 971, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "D:\scb_bazaar\lib\site-packages\simplejson\__init__.py", line 525, in loads
+    return _default_decoder.decode(s)
+  File "D:\scb_bazaar\lib\site-packages\simplejson\decoder.py", line 370, in decode
+    obj, end = self.raw_decode(s)
+  File "D:\scb_bazaar\lib\site-packages\simplejson\decoder.py", line 400, in raw_decode
+    return self.scan_once(s, idx=_w(s, idx).end())
+simplejson.errors.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\scb_bazaar\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\scb_bazaar\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\scb_bazaar\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\scb_bazaar\lib\site-packages\django\views\generic\base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\scb_bazaar\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\scb_bazaar\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\scb_bazaar\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\scb_bazaar\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\scb_bazaar\lib\site-packages\rest_framework\decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "C:\Users\zuhrah.sirguroh\Downloads\calljson (1)\calljson\callapp\views.py", line 163, in call_json
+    txt_output=call_back_api_flow(config['Invoice_DATA']['Textextract_callback_url'])
+  File "C:\Users\zuhrah.sirguroh\Downloads\calljson (1)\calljson\callapp\views.py", line 47, in call_back_api_flow
+    print("get callback_response----\n\n",callback_response.json())
+  File "D:\scb_bazaar\lib\site-packages\requests\models.py", line 975, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2023-04-20 08:41:00,042 | C:\Users\zuhrah.sirguroh\Downloads\calljson (1)\calljson\callapp\views.py changed, reloading.
+2023-04-20 08:41:10,171 | acepp222333-abf5-11ec-94a2-0a58c0a808f6 |Status of Invoice : Request recieved
+2023-04-20 08:41:10,179 | ffce661d-df28-11ed-a7c0-6c9466b6473d |Status of Textxtract : ACK recieved
+2023-04-20 08:41:22,200 | Starting new HTTP connection (1): 127.0.0.1:8000
+2023-04-20 08:41:22,220 | Not Found: /textxtract
+2023-04-20 08:41:22,221 | http://127.0.0.1:8000 "GET /textxtract HTTP/1.1" 404 2653
+2023-04-20 08:41:22,319 | Internal Server Error: /api/calljson/
+Traceback (most recent call last):
+  File "D:\scb_bazaar\lib\site-packages\requests\models.py", line 971, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "D:\scb_bazaar\lib\site-packages\simplejson\__init__.py", line 525, in loads
+    return _default_decoder.decode(s)
+  File "D:\scb_bazaar\lib\site-packages\simplejson\decoder.py", line 370, in decode
+    obj, end = self.raw_decode(s)
+  File "D:\scb_bazaar\lib\site-packages\simplejson\decoder.py", line 400, in raw_decode
+    return self.scan_once(s, idx=_w(s, idx).end())
+simplejson.errors.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\scb_bazaar\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\scb_bazaar\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\scb_bazaar\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\scb_bazaar\lib\site-packages\django\views\generic\base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\scb_bazaar\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\scb_bazaar\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\scb_bazaar\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\scb_bazaar\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\scb_bazaar\lib\site-packages\rest_framework\decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "C:\Users\zuhrah.sirguroh\Downloads\calljson (1)\calljson\callapp\views.py", line 165, in call_json
+    txt_output=call_back_api_flow(config['Invoice_DATA']['Textextract_callback_url'])
+  File "C:\Users\zuhrah.sirguroh\Downloads\calljson (1)\calljson\callapp\views.py", line 47, in call_back_api_flow
+    print("get callback_response----\n\n",callback_response.json())
+  File "D:\scb_bazaar\lib\site-packages\requests\models.py", line 975, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2023-04-20 08:42:12,793 | C:\Users\zuhrah.sirguroh\Downloads\calljson (1)\calljson\callapp\views.py changed, reloading.
+2023-04-20 08:42:15,266 | C:\Users\zuhrah.sirguroh\Downloads\calljson (1)\calljson\callapp\views.py changed, reloading.
+2023-04-20 08:44:37,320 | C:\Users\zuhrah.sirguroh\Downloads\calljson (1)\calljson\callapp\views.py changed, reloading.
+2023-04-20 08:44:39,738 | C:\Users\zuhrah.sirguroh\Downloads\calljson (1)\calljson\callapp\views.py changed, reloading.
+2023-04-20 08:44:54,462 | acepp222333-abf5-11ec-94a2-0a58c0a808f6 |Status of Invoice : Request recieved
+2023-04-20 08:44:54,481 | 8580330c-df29-11ed-90df-6c9466b6473d |Status of Textxtract : ACK recieved
+2023-04-20 08:44:54,521 | Internal Server Error: /api/calljson/
+Traceback (most recent call last):
+  File "D:\scb_bazaar\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\scb_bazaar\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\scb_bazaar\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\scb_bazaar\lib\site-packages\django\views\generic\base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\scb_bazaar\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\scb_bazaar\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\scb_bazaar\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\scb_bazaar\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\scb_bazaar\lib\site-packages\rest_framework\decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "C:\Users\zuhrah.sirguroh\Downloads\calljson (1)\calljson\callapp\views.py", line 167, in call_json
+    txt_output=call_back_api_flow(config['Invoice_DATA']['Textextract_callback_url'])
+  File "C:\Users\zuhrah.sirguroh\Downloads\calljson (1)\calljson\callapp\views.py", line 50, in call_back_api_flow
+    return JsonResponse(callback_response.json(),safe=False)
+AttributeError: 'dict' object has no attribute 'json'
+2023-04-20 08:45:16,499 | C:\Users\zuhrah.sirguroh\Downloads\calljson (1)\calljson\callapp\views.py changed, reloading.
+2023-04-20 08:45:26,147 | acepp222333-abf5-11ec-94a2-0a58c0a808f6 |Status of Invoice : Request recieved
+2023-04-20 08:45:26,160 | 98622f2a-df29-11ed-9ada-6c9466b6473d |Status of Textxtract : ACK recieved
+2023-04-20 08:45:26,162 | 98622f2a-df29-11ed-9ada-6c9466b6473d |Status of Textxtract : Callback response recieved
+2023-04-20 08:45:26,250 | Internal Server Error: /api/calljson/
+Traceback (most recent call last):
+  File "D:\scb_bazaar\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\scb_bazaar\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\scb_bazaar\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\scb_bazaar\lib\site-packages\django\views\generic\base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\scb_bazaar\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\scb_bazaar\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\scb_bazaar\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\scb_bazaar\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\scb_bazaar\lib\site-packages\rest_framework\decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "C:\Users\zuhrah.sirguroh\Downloads\calljson (1)\calljson\callapp\views.py", line 172, in call_json
+    print(txt_output["service_output"]["doc_trace_id_list"])
+  File "D:\scb_bazaar\lib\site-packages\django\http\response.py", line 196, in __getitem__
+    return self.headers[header]
+  File "D:\scb_bazaar\lib\site-packages\django\utils\datastructures.py", line 309, in __getitem__
+    return self._store[key.lower()][1]
+KeyError: 'service_output'
+2023-04-20 09:04:35,830 | C:\Users\zuhrah.sirguroh\Downloads\calljson (1)\calljson\callapp\textxtract_json.py changed, reloading.
+2023-04-20 09:04:41,363 | acepp222333-abf5-11ec-94a2-0a58c0a808f6 |Status of Invoice : Request recieved
+2023-04-20 09:04:41,378 | 48f2438a-df2c-11ed-ba67-6c9466b6473d |Status of Textxtract : ACK recieved
+2023-04-20 09:04:41,379 | 48f2438a-df2c-11ed-ba67-6c9466b6473d |Status of Textxtract : Callback response recieved
+2023-04-20 09:04:41,417 | Internal Server Error: /api/calljson/
+Traceback (most recent call last):
+  File "D:\scb_bazaar\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\scb_bazaar\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\scb_bazaar\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\scb_bazaar\lib\site-packages\django\views\generic\base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\scb_bazaar\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\scb_bazaar\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\scb_bazaar\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\scb_bazaar\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\scb_bazaar\lib\site-packages\rest_framework\decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "C:\Users\zuhrah.sirguroh\Downloads\calljson (1)\calljson\callapp\views.py", line 172, in call_json
+    print(txt_output["service_output"]["doc_trace_id_list"])
+  File "D:\scb_bazaar\lib\site-packages\django\http\response.py", line 196, in __getitem__
+    return self.headers[header]
+  File "D:\scb_bazaar\lib\site-packages\django\utils\datastructures.py", line 309, in __getitem__
+    return self._store[key.lower()][1]
+KeyError: 'service_output'
+2023-04-20 09:05:25,764 | C:\Users\zuhrah.sirguroh\Downloads\calljson (1)\calljson\callapp\views.py changed, reloading.
+2023-04-20 09:05:40,799 | acepp222333-abf5-11ec-94a2-0a58c0a808f6 |Status of Invoice : Request recieved
+2023-04-20 09:05:40,814 | 6c5db921-df2c-11ed-8903-6c9466b6473d |Status of Textxtract : ACK recieved
+2023-04-20 09:05:40,815 | 6c5db921-df2c-11ed-8903-6c9466b6473d |Status of Textxtract : Callback response recieved
+2023-04-20 09:05:40,858 | Internal Server Error: /api/calljson/
+Traceback (most recent call last):
+  File "D:\scb_bazaar\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\scb_bazaar\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\scb_bazaar\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\scb_bazaar\lib\site-packages\django\views\generic\base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\scb_bazaar\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\scb_bazaar\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\scb_bazaar\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\scb_bazaar\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\scb_bazaar\lib\site-packages\rest_framework\decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "C:\Users\zuhrah.sirguroh\Downloads\calljson (1)\calljson\callapp\views.py", line 173, in call_json
+    print(txt_output["service_output"]["doc_trace_id_list"])
+  File "D:\scb_bazaar\lib\site-packages\django\http\response.py", line 196, in __getitem__
+    return self.headers[header]
+  File "D:\scb_bazaar\lib\site-packages\django\utils\datastructures.py", line 309, in __getitem__
+    return self._store[key.lower()][1]
+KeyError: 'service_output'
+2023-04-20 09:11:31,640 | C:\Users\zuhrah.sirguroh\Downloads\calljson (1)\calljson\callapp\views.py changed, reloading.
+2023-04-20 09:11:42,864 | acepp222333-abf5-11ec-94a2-0a58c0a808f6 |Status of Invoice : Request recieved
+2023-04-20 09:11:42,877 | 442dff66-df2d-11ed-9cff-6c9466b6473d |Status of Textxtract : ACK recieved
+2023-04-20 09:11:42,879 | 442dff66-df2d-11ed-9cff-6c9466b6473d |Status of Textxtract : Callback response recieved
+2023-04-20 09:11:42,931 | Internal Server Error: /api/calljson/
+Traceback (most recent call last):
+  File "D:\scb_bazaar\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\scb_bazaar\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\scb_bazaar\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\scb_bazaar\lib\site-packages\django\views\generic\base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\scb_bazaar\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\scb_bazaar\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\scb_bazaar\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\scb_bazaar\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\scb_bazaar\lib\site-packages\rest_framework\decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "C:\Users\zuhrah.sirguroh\Downloads\calljson (1)\calljson\callapp\views.py", line 196, in call_json
+    safee_fet_file_path = os.path.dirname(feature_extraction_filelist[0])
+IndexError: list index out of range
+2023-04-20 09:12:46,982 | C:\Users\zuhrah.sirguroh\Downloads\calljson (1)\calljson\callapp\views.py changed, reloading.
+2023-04-20 09:12:55,413 | acepp222333-abf5-11ec-94a2-0a58c0a808f6 |Status of Invoice : Request recieved
+2023-04-20 09:12:55,463 | Internal Server Error: /api/calljson/
+Traceback (most recent call last):
+  File "D:\scb_bazaar\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\scb_bazaar\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\scb_bazaar\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\scb_bazaar\lib\site-packages\django\views\generic\base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\scb_bazaar\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\scb_bazaar\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\scb_bazaar\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\scb_bazaar\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\scb_bazaar\lib\site-packages\rest_framework\decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "C:\Users\zuhrah.sirguroh\Downloads\calljson (1)\calljson\callapp\views.py", line 150, in call_json
+    feature_extraction_path = create_path(inv_input["job_params"]["ui_id"],inv_input["job_params"]["documenttype"],txt_input["job_params"]["service_name"])
+TypeError: create_path() takes 1 positional argument but 3 were given
+2023-04-20 09:14:05,424 | C:\Users\zuhrah.sirguroh\Downloads\calljson (1)\calljson\callapp\views.py changed, reloading.
+2023-04-20 09:14:25,548 | C:\Users\zuhrah.sirguroh\Downloads\calljson (1)\calljson\callapp\views.py changed, reloading.
+2023-04-20 09:14:35,243 | acepp222333-abf5-11ec-94a2-0a58c0a808f6 |Status of Invoice : Request recieved
+2023-04-20 09:14:39,642 | aaeb9413-df2d-11ed-ae4b-6c9466b6473d |Status of Textxtract : ACK recieved
+2023-04-20 09:14:39,645 | aaeb9413-df2d-11ed-ae4b-6c9466b6473d |Status of Textxtract : Callback response recieved
+2023-04-20 09:14:39,653 | ad8b46dd-df2d-11ed-a05a-6c9466b6473d |Status of SafeE : ACK recieved
+2023-04-20 09:14:39,654 | ad8b46dd-df2d-11ed-a05a-6c9466b6473d |Status of SafeE : Callback response recieved
+2023-04-20 09:14:39,658 | ad8b46dd-df2d-11ed-a05a-6c9466b6473d |Status of SafeE : ACK recieved
+2023-04-20 09:14:39,660 | ad8b46dd-df2d-11ed-a05a-6c9466b6473d |Status of SafeE : Callback response recieved
+2023-04-20 09:14:39,665 | ad8b46dd-df2d-11ed-a05a-6c9466b6473d |Status of SafeE : ACK recieved
+2023-04-20 09:14:39,666 | ad8b46dd-df2d-11ed-a05a-6c9466b6473d |Status of SafeE : Callback response recieved
+2023-04-20 09:15:45,826 | C:\Users\zuhrah.sirguroh\Downloads\calljson (1)\calljson\callapp\views.py changed, reloading.
+2023-04-20 09:15:48,512 | acepp222333-abf5-11ec-94a2-0a58c0a808f6 |Status of Invoice : Request recieved
+2023-04-20 09:15:48,836 | d6979e17-df2d-11ed-874e-6c9466b6473d |Status of Textxtract : ACK recieved
+2023-04-20 09:15:48,837 | d6979e17-df2d-11ed-874e-6c9466b6473d |Status of Textxtract : Callback response recieved
+2023-04-20 09:15:48,842 | d6c933fb-df2d-11ed-975c-6c9466b6473d |Status of SafeE : ACK recieved
+2023-04-20 09:15:48,843 | d6c933fb-df2d-11ed-975c-6c9466b6473d |Status of SafeE : Callback response recieved
+2023-04-20 09:15:48,846 | d6c933fb-df2d-11ed-975c-6c9466b6473d |Status of SafeE : ACK recieved
+2023-04-20 09:15:48,847 | d6c933fb-df2d-11ed-975c-6c9466b6473d |Status of SafeE : Callback response recieved
+2023-04-20 09:17:18,329 | C:\Users\zuhrah.sirguroh\Downloads\calljson (1)\calljson\callapp\views.py changed, reloading.
+2023-04-20 11:07:07,993 | C:\Users\zuhrah.sirguroh\Downloads\calljson (1)\calljson\callapp\views.py changed, reloading.
